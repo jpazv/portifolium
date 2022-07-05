@@ -8,7 +8,6 @@ import ellipse2 from "../assets/ellipse2.svg"
 import scroll from "../assets/scrolldown.svg"
 import numbers from "../assets/numbers.svg"
 import Projects from "../assets/projects.svg"
-import Sombra from "../assets/sombra.svg"
 import Gmail from "../assets/gmail.svg"
 import Linkedin from "../assets/linkedin.svg"
 import About from "../assets/about.svg"
@@ -28,7 +27,19 @@ function MainPage() {
                         {/* <img className="hellothere2" src={HelloThere2} /> */}
                         <img className="helloThere" src={HelloThere} />
                         <img className="bio" src={BioAtualizada} />
-                        <img className="scroll" src={scroll} />
+                        <div className="scroll" >
+                            <img src={scroll} />
+                            <a href="#scrollContent" className="scrollButton">
+                            </a>
+                            <div className="contato">
+                                <img className="gmail" src={Gmail} />
+                                <a href="mailto: jpazevedomoreiraa@gmail.com" className="gmailButton">
+                                </a>
+                                <img className="linkedin" src={Linkedin} />\
+                                <a href="https://www.linkedin.com/in/jpazv/" className="linkedin">
+                                </a>
+                            </div>
+                        </div>
 
                     </div>
                     <img className="ellipse" src={ellipse} />
@@ -39,26 +50,15 @@ function MainPage() {
                     <div className="projeto3" onClick={(() => navigate("/projetoZeus"))} />
                     <div className="projeto4" onClick={(() => navigate("/projetoZeus"))} />
                     <img className="numbers" src={numbers} />
-                    <div className="projects1" />
-                    <img className="projects" src={Projects} />
-                    <img className="sombra" src={Sombra} />
-                    <img className="about" src={About} />
-                    <div className="about2" onClick={(() => navigate("/projetoZeus"))}/>
-                    <div className="contato">
-
-                        <img className="gmail" src={Gmail} />
-                        <a href="mailto: jpazevedomoreiraa@gmail.com" className="gmailButton">
-                        </a>
-
-                        <img className="linkedin" src={Linkedin} />\
-                        <a href="https://www.linkedin.com/in/jpazv/" className="linkedin">
-                        </a>
-                        <div></div>
-                    </div>
-
+                    <img className="projeto" src={Projects} />
+                    <img className="about" src={About} onClick={(() => navigate("/projetoZeus"))} />
 
 
                 </div>
+            </div>
+
+            <div id="scrollContent" class="scrollContent">
+                <img className="helloThere" src={HelloThere} />
             </div>
         </>
     )
