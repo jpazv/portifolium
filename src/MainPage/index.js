@@ -39,10 +39,11 @@ function MainPage() {
                     <div className="projeto3" onClick={(() => navigate("/projetoZeus"))} />
                     <div className="projeto4" onClick={(() => navigate("/projetoZeus"))} />
                     <img className="numbers" src={numbers} />
-                    <img className="projects" src={Projects} />
                     <div className="projects1" />
+                    <img className="projects" src={Projects} />
                     <img className="sombra" src={Sombra} />
                     <img className="about" src={About} />
+                    <div className="about2" onClick={(() => navigate("/projetoZeus"))}/>
                     <div className="contato">
 
                         <img className="gmail" src={Gmail} />

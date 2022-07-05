@@ -85,6 +85,13 @@ body {
     margin-top: -4vw;
 }
 
+.projects {
+
+    width: 11vw;
+    margin-top: 6vw;
+    margin-left: -17vw;
+}
+
 
 .about {
     width: 7vw;
@@ -92,6 +99,17 @@ body {
     margin-top: 78vh;
     margin-left: -78vh;
 }
+.about2 {
+
+    /* background-color: red; */
+    position: absolute;
+    z-index: 1;
+    width: 11.2vw;
+    height: 1.9vw;
+    margin-top: 38vw;
+    margin-left: 11vw;
+}
+
 
 .contato {
     display: flex;
@@ -127,7 +145,7 @@ body {
 
 .glow-button:hover {
     color: rgba(255, 255, 255, 1);
-    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .9);
 }
 
 .projeto1 {
@@ -144,7 +162,7 @@ body {
 
 .projeto1:hover {
     color: rgba(255, 255, 255, 1);
-    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .9);
 }
 
 .projeto2 {
@@ -160,7 +178,7 @@ body {
 
 .projeto2:hover {
     color: rgba(255, 255, 255, 1);
-    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .9);
 }
 
 .projeto3 {
@@ -176,10 +194,11 @@ body {
 
 .projeto3:hover {
     color: rgba(255, 255, 255, 1);
-    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .9);
 }
 
 .projeto4 {
+    /* background-color: red; */
     border-radius: 50%;
     width: 4.7vw;
     height: 4.7vw;
@@ -192,15 +211,9 @@ body {
 
 .projeto4:hover {
     color: rgba(255, 255, 255, 1);
-    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .9);
 }
 
-.projects {
-
-    width: 11vw;
-    margin-top: -4vw;
-    margin-left: -17vw;
-}
 
 
 .projects1 {
@@ -213,11 +226,12 @@ body {
     margin-left: 13vw;
 }
 
-.projects1:hover {
+
+/* .projects1:hover {
     background-color: rgba(145, 92, 182, .4);
     color: rgba(255, 255, 255, 1);
     box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
-}
+} */
 
 .sombra {
     margin-top: -1vw;
