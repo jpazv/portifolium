@@ -126,8 +126,14 @@ body {
 .linkedin {
     width: 3vw;
     height: 3vw;
-    z-index: 1;
     
+}
+
+.linkedinButton{
+    height: 0.6vw;
+    margin-top: 0vw;
+    margin-left: -5.5vw;
+    padding: 1.1vw;
 }
 
 .gmail {
@@ -136,10 +142,10 @@ body {
     margin-left: 5vw;
 }
 .gmailButton {
-    width: 3vw;
-    height: 3vw;
-    margin-top: -7vw;
-    margin-left: -3vw;
+    height: 0.6vw;
+    margin-top: 0vw;
+    margin-left: -5.5vw;
+    padding: 1.1vw;
 }
 
 .glow-button:hover {
@@ -160,8 +166,9 @@ body {
 }
 
 .projeto1:hover {
+    background-color: rgba(145, 92, 182, .3);
     color: rgba(255, 255, 255, 1);
-    box-shadow: 0 5px 15px rgba(145, 92, 182, .9);
+    box-shadow: 0 12px 30px rgba(145, 92, 182, .9);
 }
 
 .projeto2 {
@@ -176,8 +183,9 @@ body {
 }
 
 .projeto2:hover {
+    background-color: rgba(145, 92, 182, .3);
     color: rgba(255, 255, 255, 1);
-    box-shadow: 0 5px 15px rgba(145, 92, 182, .9);
+    box-shadow: 0 12px 30px rgba(145, 92, 182, .9);
 }
 
 .projeto3 {
@@ -192,8 +200,9 @@ body {
 }
 
 .projeto3:hover {
+    background-color: rgba(145, 92, 182, .3);
     color: rgba(255, 255, 255, 1);
-    box-shadow: 0 5px 15px rgba(145, 92, 182, .9);
+    box-shadow: 0 12px 30px rgba(145, 92, 182, .9);
 }
 
 .projeto4 {
@@ -208,8 +217,9 @@ body {
 }
 
 .projeto4:hover {
+    background-color: rgba(145, 92, 182, .3);
     color: rgba(255, 255, 255, 1);
-    box-shadow: 0 5px 15px rgba(145, 92, 182, .9);
+    box-shadow: 0 12px 30px rgba(145, 92, 182, .9);
 }
 
 
@@ -223,6 +233,11 @@ body {
     margin-left: 13vw;
     border-radius: 20%;
 }
+
+/* .fixedPostion{
+    position:fixed;
+    z-index: 1;
+} */
 
 
 .scrollContent{

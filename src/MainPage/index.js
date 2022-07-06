@@ -2,7 +2,7 @@ import { React, Linking, useEffect } from "react";
 import "./styles.css";
 import HelloThere from "../assets/hellothere.svg";
 // import HelloThere2 from "../assets/hellothere2.svg"
-import BioAtualizada from "../assets/BioAtualizada.svg"
+import Bio from "../assets/bio.svg"
 import ellipse from "../assets/ellipse.svg"
 import ellipse2 from "../assets/ellipse2.svg"
 import scroll from "../assets/scrolldown.svg"
@@ -26,7 +26,7 @@ function MainPage() {
                     <div className="collumn">
                         {/* <img className="hellothere2" src={HelloThere2} /> */}
                         <img className="helloThere" src={HelloThere} />
-                        <img className="bio" src={BioAtualizada} />
+                        <img className="bio" src={Bio} />
                         <div className="scroll" >
                             <img src={scroll} />
                             <a href="#scrollContent" className="scrollButton">
@@ -35,13 +35,14 @@ function MainPage() {
                                 <img className="gmail" src={Gmail} />
                                 <a href="mailto: jpazevedomoreiraa@gmail.com" className="gmailButton">
                                 </a>
-                                <img className="linkedin" src={Linkedin} />\
-                                <a href="https://www.linkedin.com/in/jpazv/" className="linkedin">
+                                <img className="linkedin" src={Linkedin} />
+                                <a href="https://www.linkedin.com/in/jpazv/" className="linkedinButton">
                                 </a>
                             </div>
                         </div>
 
                     </div>
+                    
                     <img className="ellipse" src={ellipse} />
                     <img className="ellipse2" src={ellipse2} />
                     <div className="projeto1" onClick={(() => navigate("/projetoZeus"))} >
@@ -52,6 +53,7 @@ function MainPage() {
                     <img className="numbers" src={numbers} />
                     <img className="projeto" src={Projects} />
                     <img className="about" src={About} onClick={(() => navigate("/projetoZeus"))} />
+                   
 
 
                 </div>
