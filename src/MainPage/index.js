@@ -11,6 +11,7 @@ import Projects from "../assets/projects.svg"
 import Gmail from "../assets/gmail.svg"
 import Linkedin from "../assets/linkedin.svg"
 import About from "../assets/about.svg"
+import scrollDownInformation from "../assets/scrollDownInformation.png"
 
 
 import { useNavigate } from "react-router"
@@ -42,7 +43,6 @@ function MainPage() {
                         </div>
 
                     </div>
-                    
                     <img className="ellipse" src={ellipse} />
                     <img className="ellipse2" src={ellipse2} />
                     <div className="projeto1" onClick={(() => navigate("/projetoZeus"))} >
@@ -53,14 +53,18 @@ function MainPage() {
                     <img className="numbers" src={numbers} />
                     <img className="projeto" src={Projects} />
                     <img className="about" src={About} onClick={(() => navigate("/projetoZeus"))} />
-                   
+                  \
+
 
 
                 </div>
             </div>
 
             <div id="scrollContent" class="scrollContent">
-                <img className="helloThere" src={HelloThere} />
+                <div className="characters">
+                
+                    <img className="scrollDownContent" src={scrollDownInformation} />
+                </div>
             </div>
         </>
     )
