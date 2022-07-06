@@ -4,7 +4,6 @@ body {
 
 .container {
     display: flex;
-    /* justify-content: space-around; */
     height: 100vh;
     max-height: 100%;
 }
@@ -50,6 +49,7 @@ body {
 }
 
 .ellipse {
+    position: fixed;
     width: 12vw;
     height: 56vw;
     min-height: 35vw;
@@ -58,10 +58,11 @@ body {
 }
 
 .ellipse2 {
+    position:fixed;
     width: 4vw;
     height: 64vw;
     min-height: 2vw;
-    margin-left: -3.9vw;
+    margin-left: -86.9vw;
 
 }
 
@@ -76,7 +77,8 @@ body {
 
 
 }
-.scrollButton{
+
+.scrollButton {
     width: 3vw;
     height: 2vw;
     padding: 25px;
@@ -87,29 +89,32 @@ body {
 }
 
 .numbers {
+    position: fixed;
     width: 6vw;
     height: 64vw;
     min-height: 2vw;
-    margin-left: 12.1vw;
+    margin-left: -70vw;
     transform: rotate(6deg);
     margin-top: -4vw;
 }
 
-.projects {
-
+/* .projects {
+    background-color: red;
+    position: fixed;
     width: 11vw;
     margin-top: 6vw;
     margin-left: -17vw;
-}
+} */
 
 
 .about {
-    position: absolute;
+    position: fixed;
     z-index: 1;
     width: 11.2vw;
     height: 1.9vw;
     margin-top: 38vw;
-    margin-left: 11vw;
+    margin-left: -85vw;
+    cursor: pointer;
 }
 
 
@@ -119,32 +124,38 @@ body {
     width: 11.2vw;
     height: 1.9vw;
     margin-top: 8vw;
-    margin-left: 18vw;
+    margin-left: 24vw;
     gap: 3vw;
 }
+
 
 .linkedin {
     width: 3vw;
     height: 3vw;
-    
+    position: fixed
 }
 
-.linkedinButton{
+.linkedinButton {
     height: 0.6vw;
     margin-top: 0vw;
-    margin-left: -5.5vw;
+    margin-left: 0.5vw;
     padding: 1.1vw;
+    position: fixed;
 }
 
 .gmail {
     width: 3vw;
     height: 3vw;
     margin-left: 5vw;
+    position: fixed
 }
+
 .gmailButton {
+    position: fixed;
     height: 0.6vw;
+    width: 0.9vw;
     margin-top: 0vw;
-    margin-left: -5.5vw;
+    margin-left: 4.7vw;
     padding: 1.1vw;
 }
 
@@ -154,13 +165,14 @@ body {
 }
 
 .projeto1 {
+    /* background-color: red; */
+    position: fixed;
     border-radius: 50%;
     width: 4.7vw;
     height: 4.7vw;
     margin-top: 16.7vw;
     cursor: pointer;
-    margin-left: 25.3vw;
-    position: absolute;
+    margin-left: -69vw;
     z-index: 1;
 
 }
@@ -172,13 +184,13 @@ body {
 }
 
 .projeto2 {
+    position: fixed;
     border-radius: 50%;
     width: 4.7vw;
     height: 4.7vw;
     margin-top: 22.7vw;
     cursor: pointer;
-    margin-left: 25.9vw;
-    position: absolute;
+    margin-left: -68.4vw;
     z-index: 1;
 }
 
@@ -189,13 +201,13 @@ body {
 }
 
 .projeto3 {
+    position: fixed;
     border-radius: 50%;
     width: 4.7vw;
     height: 4.7vw;
     margin-top: 28.6vw;
     cursor: pointer;
-    margin-left: 25.4vw;
-    position: absolute;
+    margin-left: -69vw;
     z-index: 1;
 }
 
@@ -206,13 +218,13 @@ body {
 }
 
 .projeto4 {
+    position: fixed;
     border-radius: 50%;
     width: 4.7vw;
     height: 4.7vw;
     margin-top: 34.3vw;
     cursor: pointer;
-    margin-left: 23.4vw;
-    position: absolute;
+    margin-left: -70.9vw;
     z-index: 1;
 }
 
@@ -225,51 +237,50 @@ body {
 
 
 .projeto {
-    position: absolute;
-    z-index: 1;
-    width: 12.2vw;
-    height: 2.9vw;
-    margin-top: 21vw;
-    margin-left: 13vw;
-    border-radius: 20%;
-}
-
-/* .fixed{
     position: fixed;
-} */
-
-/* .fixedPostion{
-    position:fixed;
     z-index: 1;
-} */
+    width: 11.2vw;
+    margin-top: 22vw;
+    margin-left: -81vw;
+    
+}
 
 
 .scrollContent {
     background-color: rgb(0, 0, 0);
     display: flex;
-    height: 110vh;
-    max-height: 110%;
+    height: 132vh;
+    max-height: 100%;
 }
 
-.characters{
-    display:flex;
+
+.characters {
+    display: flex;
     flex-direction: column;
 }
 
+
 .scrollDownContent {
-    border-radius: 1%;
     position: absolute;
-    width: 22.8vw;
-    height: 43vw;
-    top: 55.5vw;
-    left: 59.3vw;
+    border-radius: 1%;
+    width: 28.8vw;
+    height: 56vw;
+    left: 57.3vw;
+    top: 51vw;
+    border: 1.5px solid rgb(255, 255, 255);
 }
 
-.scrollContent img{
-    border: 1px solid rgb(255, 255, 255);
+/* .footer{
+    width: 38vw;
+    height: 4vw;
+    border: 1px solid red;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    transform: rotate(180deg);
+} */
 
-}
 
-html{
+html {
     scroll-behavior: smooth;
 }
