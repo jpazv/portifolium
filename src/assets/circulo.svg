@@ -1,0 +1,14 @@
+<svg width="114" height="114" viewBox="0 0 114 114" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<mask id="mask0_133_1250" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="0" width="106" height="106">
+<path d="M110 53C110 82.2711 86.2711 106 57 106C27.7289 106 4 82.2711 4 53C4 23.7289 27.7289 0 57 0C86.2711 0 110 23.7289 110 53ZM7.0873 53C7.0873 80.566 29.434 102.913 57 102.913C84.566 102.913 106.913 80.566 106.913 53C106.913 25.434 84.566 3.0873 57 3.0873C29.434 3.0873 7.0873 25.434 7.0873 53Z" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0_133_1250)">
+<rect x="-13.6367" y="-29.9663" width="151.76" height="151.76" fill="url(#pattern0)"/>
+</g>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_133_1250" transform="translate(0 -0.166667) scale(0.00666667)"/>
+</pattern>
+<image id="image0_133_1250" width="150" height="200" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAADIAQMAAAAwS4omAAAAA1BMVEWUAP9wYsJ7AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAG0lEQVRIie3BMQEAAADCoPVPbQwfoAAAAIC3AQ+gAAEq5xQCAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>

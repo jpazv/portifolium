@@ -1,0 +1,91 @@
+.fixed{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    height: 500vh;
+    max-height: 1000%;
+}
+
+.collum{
+    display: flex;
+    flex-direction: column;
+}
+
+.ellipse3 {
+    position: fixed;
+    width: 12vw;
+    height: 56vw;
+    min-height: 35vw;
+    margin-left: 0vw;
+
+}
+
+.ellipse4 {
+    position: fixed;
+    width: 4vw;
+    height: 44vw;
+    min-height: 2vw;
+    margin-left: 8.1vw;
+    transform: rotate(-24deg);
+
+}
+
+
+.about2 {
+    position: fixed;
+    z-index: 1;
+    width: 22.2vw;
+    height: 2.9vw;
+    margin-top: 27vw;
+    margin-left: 12vw;
+    cursor: pointer;
+}
+
+
+.projetoAbout {
+    position: fixed;
+    z-index: 1;
+    width: 9.2vw;
+    margin-top: 15vw;
+    margin-left: 13.5vw;
+    
+}
+
+.thisIs{
+    width: 18vw;
+    height: 3vw;
+    margin-left: 41vw;
+    margin-top: 12vw;
+}
+
+.emoji{
+    height: 3vw;
+    margin-left: 2vw;
+    margin-top: 12vw;
+}
+
+.profile{
+    height: 31vw;
+    margin-top: 21vw;
+    margin-left: -20vw;
+}
+
+.problem{
+
+}
+
+.funFacts{
+
+}
+
+.getTouch{
+
+}
+
+.circulo{
+
+}
+
+.jp{
+
+}

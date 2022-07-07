@@ -1,0 +1,13 @@
+.circulo1{
+    position: fixed;
+    border-radius: 50%;
+    width: 4.7vw;
+    height: 4.7vw;
+    margin-top: 18.7vw;
+    cursor: pointer;
+    margin-left: 28vw;
+    z-index: 2;
+    background-color: rgba(145, 92, 182, .3);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 12px 30px rgba(145, 92, 182, .9);
+}

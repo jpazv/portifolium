@@ -25,7 +25,7 @@ function Nav() {
                     <div className="projeto4" onClick={(() => navigate("/projetoZeus"))} />
                     <img className="numbers" src={numbers} />
                     <img className="projeto" src={Projects} />
-                    <img className="about" src={About} onClick={(() => navigate("/"))} />
+                    <img className="about" src={About} onClick={(() => navigate("/about"))} />
                     </div>
     )
 }
