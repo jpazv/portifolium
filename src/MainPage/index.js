@@ -22,7 +22,7 @@ function MainPage() {
                 <div className="row">
                     <div className="collumn">
                         {/* <img className="hellothere2" src={HelloThere2} /> */}
-                        {/* <div className="shadow"/> */}
+                        <div className="shadow"/>
                         <img className="helloThere" src={HelloThere} />
                         <img className="bio" src={Bio} />
                         <div className="scroll" >

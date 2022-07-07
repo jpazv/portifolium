@@ -2,18 +2,18 @@ import React from "react";
 import { useNavigate } from "react-router"
 import "./styles.css";
 import Nav from "../components/nav";
-import Circulo1 from "../assets/circulo1.svg"
+import Circulo3 from "../assets/circulo1.svg"
 
 
 
-function Project1Page() {
+function Project3Page() {
     let navigate = useNavigate();
     return (
     <>
-        <img className="circulo1" src={Circulo1} />
+        <img className="circulo3" src={Circulo3} />
         <Nav />
     </>
     )
 }
 
-export default Project1Page
+export default Project3Page

@@ -39,7 +39,6 @@
     margin-top: 38vw;
     margin-left: 11vw;
     cursor: pointer;
-    z-index: 4;
 }
 
 .projeto1 {
@@ -120,4 +119,12 @@
     margin-top: 24vw;
     margin-left: 14.5vw;
     
+}
+
+.sombra{
+    width: 10vw;
+    height: 10vw;
+    z-index: 1;
+    margin-left: 10vw;
+    margin-top: 10vw;
 }
