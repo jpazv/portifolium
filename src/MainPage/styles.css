@@ -117,7 +117,7 @@ body {
 .scrollContent {
     background-color: rgb(0, 0, 0);
     display: flex;
-    height: 170vh;
+    height: 140vh;
     max-height: 100%;
 }
 
