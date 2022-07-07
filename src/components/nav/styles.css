@@ -39,6 +39,7 @@
     margin-top: 38vw;
     margin-left: 11vw;
     cursor: pointer;
+    z-index: 4;
 }
 
 .projeto1 {
