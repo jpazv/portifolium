@@ -1,18 +1,23 @@
-/* .ellipse {
+.fixed{
+    position: fixed;
+}
+
+
+.ellipse {
     position: fixed;
     width: 12vw;
     height: 56vw;
     min-height: 35vw;
-    margin-left: -95vw;
+    margin-left: 0vw;
 
 }
 
 .ellipse2 {
-    position:fixed;
+    position: fixed;
     width: 4vw;
     height: 64vw;
     min-height: 2vw;
-    margin-left: -86.9vw;
+    margin-left: 8.1vw;
 
 }
 
@@ -21,9 +26,9 @@
     width: 6vw;
     height: 64vw;
     min-height: 2vw;
-    margin-left: -70vw;
+    margin-left: 27vw;
     transform: rotate(6deg);
-    margin-top: -4vw;
+    margin-top: -2vw;
 }
 
 .about {
@@ -32,7 +37,7 @@
     width: 11.2vw;
     height: 1.9vw;
     margin-top: 38vw;
-    margin-left: -85vw;
+    margin-left: 11vw;
     cursor: pointer;
 }
 
@@ -41,9 +46,9 @@
     border-radius: 50%;
     width: 4.7vw;
     height: 4.7vw;
-    margin-top: 16.7vw;
+    margin-top: 18.7vw;
     cursor: pointer;
-    margin-left: -69vw;
+    margin-left: 28vw;
     z-index: 1;
 
 }
@@ -59,9 +64,9 @@
     border-radius: 50%;
     width: 4.7vw;
     height: 4.7vw;
-    margin-top: 22.7vw;
+    margin-top: 24.7vw;
     cursor: pointer;
-    margin-left: -68.4vw;
+    margin-left: 28.6vw;
     z-index: 1;
 }
 
@@ -76,9 +81,9 @@
     border-radius: 50%;
     width: 4.7vw;
     height: 4.7vw;
-    margin-top: 28.6vw;
+    margin-top: 30.6vw;
     cursor: pointer;
-    margin-left: -69vw;
+    margin-left: 28vw;
     z-index: 1;
 }
 
@@ -93,9 +98,9 @@
     border-radius: 50%;
     width: 4.7vw;
     height: 4.7vw;
-    margin-top: 34.3vw;
+    margin-top: 36.3vw;
     cursor: pointer;
-    margin-left: -70.9vw;
+    margin-left: 26.1vw;
     z-index: 1;
 }
 
@@ -111,7 +116,7 @@
     position: fixed;
     z-index: 1;
     width: 11.2vw;
-    margin-top: 22vw;
-    margin-left: -81vw;
+    margin-top: 24vw;
+    margin-left: 14.5vw;
     
-} */
+}
