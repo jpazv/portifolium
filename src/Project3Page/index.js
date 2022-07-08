@@ -2,16 +2,21 @@ import React from "react";
 import { useNavigate } from "react-router"
 import "./styles.css";
 import Nav from "../components/nav";
-import Circulo3 from "../assets/circulo1.svg"
+import ProjetoAnime from "../assets/projetoAnime.svg"
+
 
 
 
 function Project3Page() {
     let navigate = useNavigate();
     return (
-    <>
-        <img className="circulo3" src={Circulo3} />
-        <Nav />
+        <>
+       
+       <div className="repply"/>
+        <div className="rowProject3">
+            <img className="projetoAnime" src={ProjetoAnime} />
+            <Nav />
+        </div>
     </>
     )
 }

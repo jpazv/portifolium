@@ -20,9 +20,9 @@ function Nav() {
                     <img className="ellipse2" src={ellipse2} />
                     <div className="projeto1" onClick={(() => navigate("/projetoZeus"))} >
                     </div>
-                    <div className="projeto2" onClick={(() => navigate("/projetoZeus"))} />
-                    <div className="projeto3" onClick={(() => navigate("/projetoZeus"))} />
-                    <div className="projeto4" onClick={(() => navigate("/projetoZeus"))} />
+                    <div className="projeto2" onClick={(() => navigate("/projetoRepply"))} />
+                    <div className="projeto3" onClick={(() => navigate("/projetoAnime"))} />
+                    <div className="projeto4" onClick={(() => navigate("/projetoBall"))} />
                     <img className="numbers" src={numbers} />
                     <img className="projeto" src={Projects} />
                     <img className="about" src={About} onClick={(() => navigate("/about"))} />
