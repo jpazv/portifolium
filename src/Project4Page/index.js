@@ -14,7 +14,7 @@ function Project4Page() {
        
        <div className="ball"/>
         <div className="rowProject4">
-            <img className="projetoBall" src={ProjetoBall} />
+            <img className="projetoBall" src={ProjetoBall}    />
             <Nav />
         </div>
     </>
