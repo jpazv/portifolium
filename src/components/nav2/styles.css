@@ -1,11 +1,11 @@
-.fixed2{
+.fixed2 {
     display: flex;
     flex-direction: row;
     height: 100vh;
     max-height: 100%;
 }
 
-.collumAbout{
+.collumAbout {
     display: flex;
     flex-direction: column;
 
@@ -36,13 +36,13 @@
     position: fixed;
     z-index: 1;
     width: 11.2vw;
-    height: 2.9vw;
+    height: 3.9vw;
     margin-top: 25vw;
-    margin-left: 12vw;
+    margin-left: 14vw;
     cursor: pointer;
 }
 
-.returnMain{
+.returnMain {
     position: fixed;
     width: 7.7vw;
     height: 2vw;
@@ -56,15 +56,15 @@
 .projetoAbout {
     position: fixed;
     z-index: 1;
-    width: 7.2vw;
+    width: 9.2vw;
     margin-top: 13vw;
     margin-left: 11.5vw;
-    
+
 }
 
 
 
-.thisIs{
+.thisIs {
     width: 18vw;
     height: 3vw;
     left: 40vw;
@@ -72,38 +72,45 @@
     position: relative;
 }
 
-.emoji{
+.emoji {
     position: relative;
     left: 46vw;
     top: 6.5vw;
     height: 2.5vw;
 }
 
-.profile{
+.profile {
     height: 29vw;
     top: 11vw;
     left: 46vw;
     position: relative;
 }
 
-.fixed3{
+.fixed3 {
     display: flex;
     flex-direction: column;
     height: 200vh;
     width: 100vw;
 }
 
-.problem{
+.problem {
     position: relative;
     top: 32vw;
     left: 10vw;
     height: 6vw;
 }
 
-.lets{
+.lets {
     position: relative;
     height: 20vw;
     top: 60vw;
     left: 10vw;
 }
 
+.sombra {
+    position: fixed;
+    z-index: 1;
+    width: 54.2vw;
+    top: 5vw;
+    left: -7.5vw;
+}

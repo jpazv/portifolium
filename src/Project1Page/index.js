@@ -1,20 +1,20 @@
 import React from "react";
-import { useNavigate } from "react-router"
-import "./styles.css";
+import { useNavigate } from "react-router";
+import ProjetoZeus from "../assets/projetoZeus.svg";
 import Nav from "../components/nav";
-import ProjetoZeus from "../assets/projetoZeus.svg"
+import "./styles.css";
 
 function Project1Page() {
     let navigate = useNavigate();
     return (
         <>
-            <div className="zeus"/>
-        <div className="rowProject1">
-            <img className="projetoZeus" src={ProjetoZeus} />
-            <Nav />
-        </div>
+            <div className="zeus" />
+            <div className="rowProject1">
+                <img className="projetoZeus" src={ProjetoZeus} />
+                <Nav />
+            </div>
 
-    </>
+        </>
     )
 }
 

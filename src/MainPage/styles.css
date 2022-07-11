@@ -52,13 +52,14 @@ body {
 }
 
 .scrollButton {
-    width: 3vw;
+    width: 2vw;
     height: 2vw;
     padding: 25px;
     border-radius: 50%;
     position: absolute;
     left: 7.4vw;
-    top: 6vw;
+    top: 4vw;
+    z-index: 2;
 }
 
 
