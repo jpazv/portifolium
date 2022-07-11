@@ -1,8 +1,8 @@
 import React from "react";
-import { useNavigate } from "react-router"
-import "./styles.css";
+import { useNavigate } from "react-router";
+import ProjetoRepply from "../assets/projetoRepply.svg";
 import Nav from "../components/nav";
-import ProjetoRepply from "../assets/projetoRepply.svg"
+import "./styles.css";
 
 
 
@@ -15,6 +15,7 @@ function Project2Page() {
        <div className="repply"/>
         <div className="rowProject2">
             <img className="projetoRepply" src={ProjetoRepply} />
+            <div className="gitButton"/>
             <Nav />
         </div>
     </>

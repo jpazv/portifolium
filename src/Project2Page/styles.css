@@ -4,8 +4,18 @@
 }
 
 .projetoRepply{
-    left: 18vw;
+    left: 36vw;
     height: 39vw;
-    position: relative;
+    position: absolute;
     top: 7vw;
+}
+
+.gitButton{
+    position: relative;
+    top: 35.2vw;
+    left: 85.5vw;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 50%;
+    cursor: pointer;
 }

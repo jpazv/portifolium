@@ -4,15 +4,33 @@
 }
 
 .projetoZeus{
-    left: 18vw;
+    left: 36vw;
     height: 39vw;
-    position: relative;
+    position: absolute;
     top: 7vw;
 }
 
-/* .zeus{
-    background-color: red;
+
+.gitButton{
     position: relative;
-    right: 10vw;
-    left: 10vw;
-} */
+    top: 35.2vw;
+    left: 85.5vw;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.goTo{
+    background-color: red;
+    position: absolute;
+    top: 35.2vw;
+    left: 85.5vw;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 2;
+}
