@@ -20,11 +20,9 @@ function MainPage() {
             <div className="container">
                 <div className="row">
                     <div className="collumn">
-                        {/* <img className="hellothere2" src={HelloThere2} /> */}
-                        {/* <div className="shadow"/> */}
-                        <img className="helloThere" src={HelloThere} />
+                        <img className="helloThere" src={HelloThere}/>
                         <img className="bio" src={Bio} />
-                        <div className="scroll" >
+                        <div className="scroll">
                             <img src={scroll} />
                             <a href="#scrollContent" className="scrollButton">
                             </a>
@@ -37,7 +35,6 @@ function MainPage() {
                                 </a>
                             </div>
                         </div>
-
                     </div>
                     <Nav/>
                 </div>
