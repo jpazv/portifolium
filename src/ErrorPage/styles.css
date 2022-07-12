@@ -1,0 +1,10 @@
+.containerError{
+    height: 100vh;
+    max-height: 100%;
+}
+
+.error{
+    position: absolute;
+    margin-left: 33vw;
+    margin-top: 10vw;
+}

@@ -1,11 +1,17 @@
 import React from "react";
-import styles from "./styles.css"
+import Error from "../assets/midoriyaError.png";
+import "./styles.css";
+
 
 function ErrorPage() {
+    
+    document.body.style.backgroundColor = "#237745"
+
     return (
         <>
-        <div>ERROR, PAGE NOT FOUND
-        </div>
+            <div className="containerError">
+                <img className="error" src={Error}/>
+            </div>
         </>
     )
 }
