@@ -11,9 +11,7 @@ function Project1Page() {
             <div className="zeus" />
             <div className="rowProject1">
                 <img className="projetoZeus" src={ProjetoZeus}/>
-                <div className="gitButton" onClick={console.log("clicado")}/>
-                <a href="https://www.linkedin.com/in/jpazv/" className="goTo">
-                    aaaaaa
+                <a href="https://github.com/jpazv/front-zeus.git" target="_blank" className="goTo" rel="noreferrer">
                 </a>
                 <Nav/>
             </div>

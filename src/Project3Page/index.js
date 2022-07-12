@@ -15,7 +15,8 @@ function Project3Page() {
        <div className="repply"/>
         <div className="rowProject3">
             <img className="projetoAnime" src={ProjetoAnime} />
-            <div className="gitButton"/>
+            <a href="https://github.com/jpazv/animesearch" target="_blank" className="goTo" rel="noreferrer">
+                </a>
             <Nav />
         </div>
     </>

@@ -15,7 +15,8 @@ function Project4Page() {
        <div className="ball"/>
         <div className="rowProject4">
             <img className="projetoBall" src={ProjetoBall}/>
-            <div className="gitButton"/>
+            <a href="https://github.com/jpazv/jogos/blob/main/jogo-da-bolinha.html" target="_blank" className="goTo" rel="noreferrer">
+                </a>
             <Nav />
         </div>
     </>

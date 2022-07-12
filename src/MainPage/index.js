@@ -1,16 +1,15 @@
-import  React  from "react";
-import "./styles.css";
+import React from "react";
 import HelloThere from "../assets/hellothere.svg";
+import "./styles.css";
 // import HelloThere2 from "../assets/hellothere2.svg"
-import Bio from "../assets/bio.svg"
-import scroll from "../assets/scrolldown.svg"
-import Gmail from "../assets/gmail.svg"
-import Linkedin from "../assets/linkedin.svg"
-import scrollDownInformation from "../assets/scrollDownInformation.png"
-import Footer from "../assets/footer.svg"
+import Bio from "../assets/bio.svg";
+import Gmail from "../assets/gmail.svg";
+import Linkedin from "../assets/linkedin.svg";
+import scroll from "../assets/scrolldown.svg";
+import scrollDownInformation from "../assets/scrollDownInformation.png";
 import Nav from "../components/nav";
 
-import { useNavigate } from "react-router"
+import { useNavigate } from "react-router";
 
 
 
@@ -31,10 +30,10 @@ function MainPage() {
                             </a>
                             <div className="contato">
                                 <img className="gmail" src={Gmail} />
-                                <a href="mailto: jpazevedomoreiraa@gmail.com" className="gmailButton">
+                                <a href="mailto: jpazevedomoreiraa@gmail.com" target="_blank" className="gmailButton" rel="noreferrer">
                                 </a>
                                 <img className="linkedin" src={Linkedin} />
-                                <a href="https://www.linkedin.com/in/jpazv/" className="linkedinButton">
+                                <a href="https://www.linkedin.com/in/jpazv/" target="_blank" className="linkedinButton" rel="noreferrer">
                                 </a>
                             </div>
                         </div>
